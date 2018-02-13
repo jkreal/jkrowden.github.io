@@ -7,6 +7,7 @@
 	<title>Josh's Portfolio</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 	<!--Favicon for tab icon link-->
 	<link rel="icon" href="assets/images/favicon.ico">
 
@@ -27,11 +28,10 @@
 
 
 <body background="assets/images/spiration-light.png">
-
 	<!--Top bar of page-->
 	<section class="top_bar">
 
-		<!--Name in the upper left hand corner.-->
+		<!--Name in the upper right hand corner.-->
 		<div class="name">
 			<h1>Josh Rowden</h1>
 		</div>
@@ -40,25 +40,21 @@
 		<nav class="nav">
 
 			<div class="btn-group" role="group" aria-label="...">
-
 				<button type="button" class="btn btn-default">
 					<h2>
 						<a href="./index.html">About</a>
 					</h2>
 				</button>
-
 				<button type="button" class="btn btn-default">
 					<h2>
 						<a href="./portfolio.html">Portfolio</a>
 					</h2>
 				</button>
-
 				<button type="button" class="btn btn-default">
 					<h2>
 						<a href="./contact.html">Contact</a>
 					</h2>
 				</button>
-
 			</div>
 
 		</nav>
@@ -69,28 +65,30 @@
 
 		<!--Main content (title of page with image/paragraph) goes here-->
 		<div class="main_content">
-			<h2 class="paragraph_header">About Me</h2>
+			<h2 class="paragraph_header">Contact</h2>
 
 			<!--Bar that seperates title from paragraph-->
 			<div class="content_seperator"></div>
 
 			<!--Div that holds the main paragraph-->
 			<div class="main_paragraph">
-				<p>
-					<img align="left" class="profile_img" src="./assets/images/me.jpg">
-				</p>
 
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa inventore harum ullam maiores amet nisi vel molestias error
-					iure. Voluptas, est? Optio minima cum laborum laudantium officia voluptatibus, dignissimos quidem?
-				</p>
+				<p class="contact">Name</p>
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil porro, vero officiis et maiores veritatis incidunt pariatur
-					eligendi eum tempore facilis exercitationem illo amet enim. Itaque nulla facere labore animi.</p>
+				<input type="text" name="name" placeholder="   Name">
 
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus sunt facilis rerum mollitia, aspernatur rem
-					asperiores sed quia adipisci doloremque consequatur labore quod error inventore expedita esse nihil perferendis consequuntur.</p>
+				<p class="contact">Email</p>
 
+				<input type="text" name="email" placeholder="   Email">
+
+				<p class="contact">Message</p>
+
+				<textarea class="message" name="message" type="text" placeholder="This site is awesome!."></textarea>
+
+				<br>
+				<br>
+
+				<button class="btn_submit">Submit</button>
 			</div>
 
 		</div>
