@@ -1,3 +1,20 @@
+* {
+	font-family: 'Merriweather', serif;
+}
+
+body {
+	background-image: url('../../assets/images/background.jpg');
+	background-repeat: repeat-y;
+	background-position: center center;
+
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: black url('../../assets/images/background.jpg');
+	background-size: 100%;
+}
+
 #main-paragraph img{
 	height: 13em;
 	width: 10em;
@@ -39,6 +56,7 @@
 #sidebar{
 	border-radius: 25px;
 	margin-top: 3em;
+	position: fixed;
 }
 
 .panel-body img{
@@ -60,7 +78,7 @@
 
 	text-align: center;
 
-	background-color: #666666;
+	background-color: black;
 
 	border-top: outset 5px #cccccc;
 
@@ -69,7 +87,7 @@
 }
 
 #footer .footer-copyright .container-fluid p{
-	color: #cccccc;
+	color: darkorchid;
 }
 
 #message{
